@@ -1,0 +1,100 @@
+/* Container for the Home page */
+.homepage-container {
+    background-image: url('C:\Users\himan\Desktop\MY Smart City\smart-city-react-main\smart.jpeg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* White text color for better contrast */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Navigation Bar Styling */
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar .logo h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .navbar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .navbar nav ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .navbar nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content Styling */
+  main {
+    margin-top: 70px; /* Space for the fixed navbar */
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .intro {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .intro h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .intro p {
+    font-size: 1.2rem;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background for the footer */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-icons {
+    margin: 10px 0;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
